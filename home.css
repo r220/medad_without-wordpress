@@ -74,16 +74,14 @@ html {
     --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
 }
 
-.homecol {
-    width: 23.886rem;
-    height: 23.75rem;
+.home-block {
+    position: relative;
+    padding: 40px 0;
 }
 
-@media only screen and (max-width: 992px) {
-    .homecol {
-        width: 23.856rem;
-        height: 23.75rem;
-    }
+.homecol {
+    width: 22.852rem;
+    height: 22.75rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -97,6 +95,10 @@ html {
     .homecol {
         width: 18.834rem;
         height: 18.75rem;
+    }
+
+    .two-options {
+        flex-direction: column;
     }
 }
 
