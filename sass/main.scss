@@ -2,26 +2,8 @@ $primary: #FF6B00;
 $secondary: #F2D5BF;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-// @import url(Parastoo.woff2);
-// @import url('Parastoo.eot');
 
-// @font-face {
-//     font-family: Parastoo;
-//     src: url(Parastoo.eot);
-//     src: url(Parastoo.eot?#iefix) format('embedded-opentype'),
-//         url(Parastoo.woff2) format('woff2'),
-//         url(Parastoo.woff) format('woff'),
-//         url(Parastoo.ttf) format('truetype');
-//     font-weight: normal;
-// }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-// @font-face {
-//     font-family: Parastoo;
-//      src: url('Parastoo-Bold.eot');
-//     src: url('Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
-//         url('Parastoo-Bold.woff2') format('woff2');
-//     font-weight: bold;
-// }
 
 :root {
     --bs-body-font-family: "Rubik";
