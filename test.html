@@ -33,7 +33,16 @@
     <!-- HEADER -->
     <nav
       id="header"
-      class="navbar navbar-expand-lg sticky-top navbar-dark bg-black py-1"
+      class="navbar navbar-expand-lg sticky-top navbar-dark bg-black py-1 py-1 m-3 rounded-4"
+      style="
+        display: flex;
+        position: fixed;
+        width: calc(100% - 2rem);
+        top: 0;
+        z-index: 9999;
+        /* height: 4.5rem; */
+        align-items: center;
+      "
     >
       <div class="container px-4 py-2">
         <button
@@ -105,7 +114,7 @@
         <!-- nav-logo -->
         <div class="me-auto">
           <a class="navbar-brand" href="#">
-            <img src="assets/svg/midad_logo.svg" style="height: 35px" alt="" />
+            <img src="assets/svg/midad_logo.svg" style="height: 3rem" alt="" />
           </a>
         </div>
       </div>
@@ -434,8 +443,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <!-- <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script> -->
-    <!-- <script src="node_modules//bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
       integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
