@@ -363,3 +363,18 @@ body ul.footer-list--social-links li a {
     background-color: #ffe9d7;
     font-size: var(--font-sm);
 }
+
+
+
+
+
+/* nav test */
+#header {
+    display: flex;
+    position: fixed;
+    width: calc(100% - 2rem);
+    top: 0;
+    z-index: 9999;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}

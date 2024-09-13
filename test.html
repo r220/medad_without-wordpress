@@ -33,16 +33,7 @@
     <!-- HEADER -->
     <nav
       id="header"
-      class="navbar navbar-expand-lg sticky-top navbar-dark bg-black py-1 py-1 m-3 rounded-4"
-      style="
-        display: flex;
-        position: fixed;
-        width: calc(100% - 2rem);
-        top: 0;
-        z-index: 9999;
-        /* height: 4.5rem; */
-        align-items: center;
-      "
+      class="navbar navbar-expand-lg sticky-top navbar-dark py-1 py-1 m-3 rounded-4"
     >
       <div class="container px-4 py-2">
         <button
@@ -58,7 +49,7 @@
         </button>
         <!--  -->
         <a
-          class="btn text-white"
+          class="btn text-white mx-2"
           style="font-size: x-large"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
@@ -70,7 +61,7 @@
           <i class="bi bi-search"></i>
         </a>
         <!--  -->
-        <div class="dropdown">
+        <div class="dropdown mx-2">
           <a
             class="text-white"
             style="font-size: 24px"
@@ -127,6 +118,7 @@
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
+      style="top: 75px;"
     >
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
@@ -178,7 +170,7 @@
       <!-- TITLE -->
       <div class="container py-5 px-2 text-center">
         <!-- IMAGE -->
-        <div class="mt-4 py-5 mb-5">
+        <div class="py-5 mb-5" style="margin-top: 6rem;">
           <!-- <h1 class="navbar-brand text-white" style="font-size: 7rem">مداد</h1> -->
           <img src="assets/svg/midad_logo.svg" style="height: 9rem" alt="" />
           <p class="text-white" style="font-size: 1.4rem">
