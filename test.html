@@ -39,14 +39,15 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="offcanvas"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!--  -->
         <a
           class="btn text-white"
           style="font-size: x-large"
@@ -59,7 +60,8 @@
         >
           <i class="bi bi-search"></i>
         </a>
-        <div class="dropdown" >
+        <!--  -->
+        <div class="dropdown">
           <a
             class="text-white"
             style="font-size: 24px"
@@ -70,13 +72,13 @@
           >
             <i class="bi bi-cart-fill"></i>
           </a>
-          <ul class="dropdown-menu bg-black " style="direction: rtl;">
+          <ul class="dropdown-menu bg-black" style="direction: rtl">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </div>
-
+        <!--  -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav p-0 text-center">
             <li class="nav-item">
@@ -85,7 +87,7 @@
                 aria-current="page"
                 href="#"
                 style="font-size: 1.25rem"
-                >الصفحـــة الرئيسيـــــة</a
+                >الـرئـيـسيـــــة</a
               >
             </li>
             <li class="nav-item">
@@ -100,14 +102,16 @@
             </li>
           </ul>
         </div>
+        <!-- nav-logo -->
         <div class="me-auto">
           <a class="navbar-brand" href="#">
-            <!-- مداد<img class="kasra-logo" src="assets/svg/kasra.svg" alt="kasra"/> -->
             <img src="assets/svg/midad_logo.svg" style="height: 35px" alt="" />
           </a>
         </div>
       </div>
     </nav>
+
+    <!-- search modal -->
     <div
       class="modal fade"
       id="exampleModal"
@@ -115,7 +119,7 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog  modal-dialog-scrollable">
+      <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-body">
             <div class="container-fluid">
@@ -137,7 +141,29 @@
         </div>
       </div>
     </div>
-
+    <!-- offcanvas -->
+    <div
+      class="offcanvas offcanvas-end bg-secondary"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvas"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+          Backdrop with scrolling
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Try scrolling the rest of the page to see this option in action.</p>
+      </div>
+    </div>
     <!-- CONTENT -->
     <div class="bg-image">
       <!-- TITLE -->
