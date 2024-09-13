@@ -74,11 +74,17 @@ html {
     --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
 }
 
-
+section {
+    background-color: #fff4ed;
+}
 
 .container {
     width: 100%;
     max-width: 1350px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .home-block {
     position: relative;
@@ -88,6 +94,10 @@ html {
 .homecol {
     width: 22.852rem;
     height: 22.75rem;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
 }
 
 @media only screen and (max-width: 768px) {
