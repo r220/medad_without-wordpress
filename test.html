@@ -47,6 +47,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a
+          class="btn text-white"
+          style="font-size: x-large"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          href=""
+          target="#"
+          rel="noreferrer"
+          aria-label="البحث"
+        >
+          <i class="bi bi-search"></i>
+        </a>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav p-0 text-center">
             <li class="nav-item">
@@ -78,22 +91,45 @@
         </div>
       </div>
     </nav>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="ما الذي تبحث عنه..؟" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- CONTENT -->
     <div class="bg-image">
       <!-- TITLE -->
       <div class="container py-5 px-2 text-center">
         <!-- IMAGE -->
-        <div class="mt-4 mb-5">
+        <div class="mt-4 py-5 mb-5">
           <!-- <h1 class="navbar-brand text-white" style="font-size: 7rem">مداد</h1> -->
-          <img src="assets/svg/midad_logo.svg" style="height: 8rem" alt="" />
-          <p class="text-white" style="font-size: 1.25rem">
+          <img src="assets/svg/midad_logo.svg" style="height: 9rem" alt="" />
+          <p class="text-white" style="font-size: 1.4rem">
             تُعرز ربحك، تحقق نجاحك
           </p>
         </div>
         <!-- vendor | client -->
         <div
-          class="two-options d-flex flex-wrap justify-content-around align-items-center text-white"
+          class="two-options d-flex flex-wrap justify-content-evenly align-items-center text-white"
         >
           <!-- col 1 -->
           <div
@@ -127,13 +163,13 @@
             <h1
               class="mt-4"
               style="
-
                 text-shadow: 5px 6px 5.3px rgba(0, 0, 0, 0.3);
                 font-weight: 600;
                 font-size: 3rem;
-
               "
-            >مسـتـأجـر</h1>
+            >
+              مستأجر
+            </h1>
             <div class="my-4">
               لديك ادوات تود عرضها للتأجير؟
               <strong class="text-primary">هنا ربحك</strong>
