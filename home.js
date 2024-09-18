@@ -74,6 +74,7 @@ var splide = new Splide('.splide', {
       557: {
           gap: 10,
           perPage: 1,
+          height: "24rem",
           padding: {
               left: "4rem",
               right: 15
