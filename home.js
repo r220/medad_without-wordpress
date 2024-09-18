@@ -64,8 +64,9 @@ var splide = new Splide('.splide', {
           // }
       },
       768: {
-          // gap: 15,
-          perPage: 3,
+          gap: 20,
+          perPage: 2,
+          height: "24rem",
           padding: {
               left: 50,
               right: 15

@@ -100,6 +100,27 @@ section {
         width: 19.838rem;
         height: 19.75rem;
     }
+
+
+    .card {
+        width: 22rem;
+        height: 24.75rem;
+    }
+
+    .card-title {
+        font-size: 1.9rem;
+        margin-bottom: 15px;
+    }
+
+    .img-wrapper img {
+        height: 8.5625rem;
+    }
+
+    .card-body p {
+        color: #666;
+        font-size: 1.2rem;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
