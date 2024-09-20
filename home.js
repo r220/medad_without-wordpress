@@ -1,86 +1,50 @@
-// $(document).ready(function () {
-//   var owl = $(".owl-carousel");
-//   owl.owlCarousel({
-//     rtl: true,
-//     // loop: true,
-//     center: true,
-//     margin: 0,
-//     nav: true,
-//     autoPlay: true,
-//     responsive: {
-//       0: { items: 1 },
-//       600: { items: 3 },
-//       1000: { items: 4 },
-//     },
-//   });
-// });
-
-
 var splide = new Splide('.splide', {
-  perPage: 4,
-  perMove: 4,
+  type: 'loop',
   direction: 'rtl',
-  gap: 20,
-  height: '20rem',
-  focus: 'center',
-  pagination: !1,
+  height: '22rem',
   autoWidth: true,
-  breakpoints: {
-    640: {
-      perPage: 2,
-      // gap: '2rem',
-      // height : '6rem',
-    },
-    480: {
-      perPage: 1,
-      // gap: '3rem',
-      // height : '6rem',
-    },
-  },
+  speed: 600,
+  padding: '1rem',
+  pagination: !1,
+  // focus: 'center',
 
-    breakpoints: {
-      1280: {
-          gap: 15,
-          perPage: 4,
-          padding: {
-              left: 20,
-              right: 20,
-          }
-      },
-      1200: {
-          gap: 15,
-          perPage: 4,
-          padding: {
-            left: 20,
-            right: 20,
-        }
-      },
-      992: {
-          gap: 30,
-          perPage: 3,
-          // padding: {
-          //     left: 50,
-          //     right: 15
-          // }
-      },
-      768: {
-          gap: 20,
-          perPage: 2,
-          height: "24rem",
-          padding: {
-              left: 50,
-              right: 15
-          }
-      },
-      557: {
-          gap: 10,
-          perPage: 1,
-          height: "24rem",
-          padding: {
-              left: "4rem",
-              right: 15
-          }
+  drag: 'free',
+  autoScroll: {
+    speed: 1,
+  },
+  breakpoints: {
+    1280: {
+      gap: 20,
+      perPage: 4,
+      autoHeight: true,
+      padding: {
+        left: 15,
+        right: 15,
       }
+    },
+    1000: {
+      gap: 40,
+      perPage: 4,
+      padding: {
+        left: 20,
+        right: 20,
+      }
+    },
+    992: {
+      gap: 40,
+      perPage: 4,
+    },
+    600: {
+      gap: 40,
+      perPage: 2,
+      height: "23rem",
+    },
+    557: {
+      gap: 20,
+      perPage: 1,
+      height: "35rem",
+      focus: 'center'
+    }
   }
 
 

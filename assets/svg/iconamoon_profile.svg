@@ -6,10 +6,35 @@
    fill="none"
    version="1.1"
    id="svg2"
+   sodipodi:docname="iconamoon_profile.svg"
+   inkscape:export-filename="iconamoon_profile.svg"
+   inkscape:export-xdpi="66.742859"
+   inkscape:export-ydpi="66.742859"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.247619"
+     inkscape:cx="46.938559"
+     inkscape:cy="46.271186"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
   <path
      d="m 12,72.076271 c 0,-4.6413 1.7911,-9.0925 4.9792,-12.3744 3.1881,-3.2819 7.5121,-5.1256 12.0208,-5.1256 h 34 c 4.5087,0 8.8327,1.8437 12.0208,5.1256 3.1881,3.2819 4.9792,7.7331 4.9792,12.3744 0,2.3206 -0.8955,4.5462 -2.4896,6.1872 -1.5941,1.6409 -3.7561,2.5628 -6.0104,2.5628 h -51 c -2.2543,0 -4.4163,-0.9219 -6.0104,-2.5628 C 12.8955,76.622471 12,74.396871 12,72.076271 Z"
      stroke="#ff6b00"
