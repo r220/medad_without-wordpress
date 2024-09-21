@@ -413,13 +413,13 @@ section {
 
 @media only screen and (max-width: 576px) {
     .card {
-        width: 30rem;
-        height: 33.75rem;
+        width: 25rem;
+        height: 28.125rem;
         border-radius: 2.25rem;
     }
 
     .card-title {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
         margin-bottom: 15px;
     }
 
@@ -429,7 +429,7 @@ section {
 
     .card-body p {
         color: #666;
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -455,6 +455,7 @@ section {
 .product .card .card-body .card-title {
     color: #000000;
 }
+
 .product .card .card-body .stars {
     left: 40px;
     position: absolute;
@@ -516,7 +517,58 @@ section {
 
 /* CATEGORIESs */
 
+#categories {
+    background-color: #ffefe3;
+}
+.categories .card {
+    width: 16rem;
+    height: 16rem;
+    padding: 2.4rem;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('assets/images/product.png');
+    background-size: cover;
+    background-position: center;
+}
 
+.categories .card img {
+    width: 100%;
+    height: 70%;
+    border-radius: 1.25rem 1.25rem 0 0;
+    margin-bottom: 1rem;
+}
+.categories .card {
+    justify-content: center;
+}
+.categories .card .card-title {
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: inherit;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .categories .card {
+        width: 16rem;
+        height: 16rem;
+        border-radius: 2.25rem;
+        padding: 2.6rem;
+    }
+
+    .categories .card img {
+        width: 23rem;
+        height: 26.285rem;
+        border-radius: 10%;
+        margin-bottom: 1rem;
+    }
+    .categories .card .card-body {
+        text-align: start;
+    }
+    .categories .card .card-body .card-title {
+        color: #000000;
+        font-size: 2.5rem;
+        margin-bottom: 1px;
+    }
+}
 
 
 
