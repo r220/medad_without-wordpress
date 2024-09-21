@@ -184,11 +184,11 @@ ul {
   .social-links {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 2rem;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -257,8 +257,8 @@ ul {
     border-radius: 50%;
     z-index: 1050;
     img {
-        width: 3.7rem;
-        height: 3.7rem;
+        width: 3.7em;
+        height: 3.7em;
     }
 
 }
