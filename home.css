@@ -434,7 +434,7 @@ section {
 }
 
 
-/* Products */
+/* Popular Products */
 
 .product .card {
     width: 20.625rem;
@@ -455,8 +455,6 @@ section {
 .product .card .card-body .card-title {
     color: #000000;
 }
-/* .product .card .card-body p {
-} */
 .product .card .card-body .stars {
     left: 40px;
     position: absolute;
@@ -512,6 +510,20 @@ section {
         margin-top: 8px;
     }
 }
+
+
+
+
+/* CATEGORIESs */
+
+
+
+
+
+
+
+
+
 
 
 
