@@ -238,7 +238,16 @@ ul {
     color: var(--primary);
   }
 
+/* account */
+#search_model .modal-dialog {
+    max-width: 600px;
+}
 
+#search_model .modal-dialog .modal-content .modal-body {
+    padding: 40px;
+}
+
+/* search */
 
 
 

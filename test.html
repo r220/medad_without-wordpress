@@ -58,10 +58,22 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <span class="navbar-toggler-icon"></span>
         </button>
         <a
-          class="btn text-white mx-2"
+          class="btn text-white me-2"
+          style="font-size: xx-large"
+          data-bs-toggle="modal"
+          data-bs-target="#search_model"
+          href=""
+          target="#"
+          rel="noreferrer"
+          aria-label="البحث"
+        >
+          <i class="bi bi-person-fill"></i>
+        </a>
+        <a
+          class="btn text-white ms-2"
           style="font-size: x-large"
           data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
+          data-bs-target="#account_model"
           href=""
           target="#"
           rel="noreferrer"
@@ -104,8 +116,37 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
     <!-- search modal -->
     <div
-      class="modal fade"
-      id="exampleModal"
+      class="modal search_modal fade text-center"
+      id="search_model"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      style="top: 75px"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h1>مرحبا بك في مداد</h1>
+                </div>
+              </div>
+              <hr width="100%" size="2" />
+              <div class="row">
+                <div class="col-sm-6"></div>
+                <div style="border-left: 1px solid #212529; height: 100px; opacity: .25;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- account modal -->
+    <div
+      class="modal account_model fade"
+      id="account_model"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -133,7 +174,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
       </div>
     </div>
-
     <!-- HERO -->
     <!-- offcanvas -->
     <div
@@ -766,7 +806,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     <li>
                       <a href="pages/us.php" target="_blank">من نحن</a>
                     </li>
-                    <li><a href="pages/contact.php" target="_blank">تواصل معنا</a></li>
+                    <li>
+                      <a href="pages/contact.php" target="_blank">تواصل معنا</a>
+                    </li>
                     <li><a href="#" target="_blank">الشحن والتوصيل</a></li>
                     <li><a href="#" target="_blank">الشروط والأحكام</a></li>
                   </ul>
