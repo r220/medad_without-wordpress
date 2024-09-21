@@ -1,4 +1,4 @@
-// RIVIEWS
+// REVIEWS splide
 var splide_reviews = new Splide('#splide_reviews', {
   type: 'loop',
   direction: 'rtl',
@@ -71,7 +71,7 @@ var splide_reviews = new Splide('#splide_reviews', {
 
 splide_reviews.mount();
 
-// PRODUCTS
+// PRODUCTS splide
 var splide_popular_products = new Splide('#splide_popular_products', {
   type: 'loop',
   direction: 'rtl',
@@ -96,10 +96,6 @@ var splide_popular_products = new Splide('#splide_popular_products', {
       perPage: 3,
       height: "30rem",
       focus: 3,
-      // padding: {
-      //   left: 20,
-      //   right: 20,
-      // },
     },
     1000: {
       gap: 40,
@@ -139,8 +135,6 @@ var splide_popular_products = new Splide('#splide_popular_products', {
     }
   }
 });
-
-
 
 splide_popular_products.mount();
 

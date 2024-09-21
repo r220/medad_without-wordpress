@@ -32,18 +32,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 "
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
   </head>
 
   <body>
     <!-- HEADER -->
     <header
       id="header"
-      class="navbar navbar-expand-lg sticky-top navbar-dark py-3 px-5"
+      class="navbar navbar-expand-lg sticky-top navbar-dark py-3 px-4"
     >
       <div class="container-fluid">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler mx-2"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvas"
@@ -129,30 +129,79 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
       </div>
     </div>
+
+    <!-- HERO -->
     <!-- offcanvas -->
     <div
-      class="offcanvas offcanvas-end bg-secondary"
+      class="offcanvas offcanvas-end bg-secondary w-75"
       data-bs-scroll="true"
       tabindex="-1"
       id="offcanvas"
       aria-labelledby="offcanvasWithBothOptionsLabel"
     >
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-          Backdrop with scrolling
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
+        <img src="assets/svg/midad_logo.svg" alt="" />
       </div>
-      <div class="offcanvas-body">
-        <p>Try scrolling the rest of the page to see this option in action.</p>
+      <div class="offcanvas-body d-flex flex-column justify-content-between">
+        <div class="navLinks">
+          <h1>الصفحة الرئيسية</h1>
+        <h1>خــــــدمــــاتنـــــا</h1>
+        <h1>عنّـــــــــــــــــــــا</h1>
+        </div>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="انستقرام"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="تويتر"
+            >
+              <i class="bi bi-twitter-x"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.snapchat.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="سناب شات"
+            >
+              <i class="bi bi-snapchat"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="تيك توك"
+            >
+              <i class="bi bi-tiktok"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="يوتيوب"
+            >
+              <i class="bi bi-youtube"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-    <!-- HERO -->
     <section id="hero">
       <div class="container py-5 px-2 text-center">
         <!-- IMAGE -->
@@ -474,7 +523,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="d-flex justify-content-center flex-wrap">
           <div class="categories mb-4">
             <div class="card">
-              <h1 class="card-title ">القسم الأول</h1>
+              <h1 class="card-title">القسم الأول</h1>
             </div>
           </div>
           <div class="categories mb-4">
@@ -855,6 +904,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="home.js"></script>
+    <script src="assets/js/home.js"></script>
   </body>
 </html>

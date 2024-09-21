@@ -9,12 +9,9 @@
                                 روابط مهمة
                             </div>
                             <ul class="footer-list store-links-items">
-                                <li><a href="#" target="_blank">تواصل معنا</a></li>
-                                <li><a href="#" target="_blank">الشحن والتوصيل</a></li>
+                                <li><a href="../pages/us.php" target="_blank">من نحن</a></li>
+                                <li><a href="../pages/contact.php" target="_blank">تواصل معنا</a></li>
                                 <li><a href="#" target="_blank">الشروط والأحكام</a></li>
-                                <li>
-                                    <a href="#" target="_blank">الخصوصية وسرية المعلومات</a>
-                                </li>
                             </ul>
                         </div>
                     </div>

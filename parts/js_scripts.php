@@ -17,4 +17,3 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="home.js"></script>
