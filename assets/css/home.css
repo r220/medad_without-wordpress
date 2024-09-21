@@ -231,7 +231,7 @@ ul {
 
   .offcanvas-body li a {
     width: auto;
-    font-size: large;
+    font-size: 2rem;
   }
 
   .offcanvas-body li a:hover {
