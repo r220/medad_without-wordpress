@@ -179,13 +179,38 @@ section {
     height: 22.75rem;
 }
 
-@media only screen and (max-width: 768px) {
-    .home-block--bg {
-        padding: 40px 0;
-    }
+@media only screen and (min-width:992px) {
     .homecol {
-        width: 19.838rem;
-        height: 19.75rem;
+        width: 22.852rem;
+        height: 22.75rem;
+    }
+    .homecol h1 {
+        font-size: 3.3rem;
+    }
+    .homecol button {
+        font-size: 1rem;
+        padding: 0.7em 2.5em;
+    }
+    .homecol p {
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    .homecol {
+        width: 22.852rem;
+        height: 22.75rem;
+    }
+    .homecol h1 {
+        font-size: 3.3rem;
+    }
+    .homecol button {
+        font-size: 1rem;
+        padding: 0.7em 2.5em;
+    }
+    .homecol p {
+        font-size: 1rem;
     }
 }
 
@@ -197,6 +222,16 @@ section {
     .homecol {
         width: 19.838rem;
         height: 19.75rem;
+    }
+    .homecol h1 {
+        font-size: 3rem;
+    }
+    .homecol button {
+        font-size: 1rem;
+        padding: 0.5em 1.7em;
+    }
+    .homecol p {
+        font-size: 0.8rem;
     }
 }
 
@@ -229,19 +264,11 @@ section {
 
 /* card */
 .card {
-    padding: 21px;
+    padding: 25px;
     box-shadow: 3px 4px 10.7px 0px rgba(0, 0, 0, 0.25);
     border: none;
     text-align: center;
 }
-
-.img-wrapper {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 
 .card-body {
     padding: 0;
@@ -257,7 +284,7 @@ section {
 .splide__arrows {
     position: absolute;
     pointer-events: none;
-    top: -45px;
+    top: -62px;
     left: 0;
     display: flex;
     width: 90px;
@@ -328,14 +355,30 @@ section {
     left: 0;
     right: auto;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 576px) {
     .card {
-        width: 16rem;
-        height: 18rem;
+        width: 19rem;
+        height: 21.375rem;
         border-radius: 1.25rem;
-
     }
+
+    .card-title {
+        font-size: 1.7rem;
+        margin-bottom: 17px;
+    }
+
+    .card img {
+        height: 6.5625rem;
+        margin-bottom: 10px;
+    }
+
+    .card-body p {
+        color: #666;
+        font-size: 1rem;
+    }
+
 }
+
 @media only screen and (min-width: 768px) {
     .card {
         width: 16rem;
@@ -348,7 +391,7 @@ section {
         margin-bottom: 15px;
     }
 
-    .img-wrapper img {
+    .card img {
         height: 6.5625rem;
     }
 
@@ -358,6 +401,15 @@ section {
     }
 
 }
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 16rem;
+        height: 18rem;
+        border-radius: 1.25rem;
+
+    }
+}
+
 
 @media only screen and (max-width: 576px) {
     .card {
@@ -371,8 +423,8 @@ section {
         margin-bottom: 15px;
     }
 
-    .img-wrapper img {
-        height: 8.5625rem;
+    .card img {
+        height: 10.5625rem;
     }
 
     .card-body p {
@@ -380,6 +432,91 @@ section {
         font-size: 1.9rem;
     }
 }
+
+
+/* Products */
+
+.product .card {
+    width: 20.625rem;
+    height: 26.75rem;
+    padding: 2.4rem;
+    align-items: center;
+}
+
+.product .card img {
+    width: 16rem;
+    height: 14rem;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+}
+.product .card .card-body {
+    text-align: start;
+}
+.product .card .card-body .card-title {
+    color: #000000;
+}
+/* .product .card .card-body p {
+} */
+.product .card .card-body .stars {
+    left: 40px;
+    position: absolute;
+    color: var(--primary);
+}
+.product .card .d-flex {
+    width: 100%;
+}
+.product .card .d-flex button {
+    font-size: 0.9rem;
+}
+.product .card .d-flex p {
+    margin-top: 6px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .product .card {
+        width: 30rem;
+        height: 38.9rem;
+        border-radius: 2.25rem;
+        padding: 2.6rem;
+    }
+
+    .product .card img {
+        width: 23rem;
+        height: 26.285rem;
+        border-radius: 10%;
+        margin-bottom: 1rem;
+    }
+    .product .card .card-body {
+        text-align: start;
+    }
+    .product .card .card-body .card-title {
+        color: #000000;
+        font-size: 2.5rem;
+        margin-bottom: 1px;
+    }
+    .product .card .card-body p {
+        font-size: 1.5rem;
+    }
+    .product .card .card-body .stars {
+        font-size: larger;
+    }
+    .product .card .d-flex {
+        width: 100%;
+    }
+    .product .card .d-flex button {
+        font-size: 1.5rem;
+    }
+    .product .card .d-flex p {
+        font-size: 1.6rem;
+        margin-top: 8px;
+    }
+}
+
+
+
+
+
 
 
 
@@ -411,10 +548,8 @@ background-color: #ffefe3;
 
 
 .title {
-    font-size: var(--font-xxlg);
-    font-family: var(--font-medium);
+    font-size: 1.65rem;
     font-weight: 500;
-    color: var(--color-title);
 }
 
 .title--has-dash {
@@ -467,7 +602,7 @@ a {
 text-decoration: none;
 }
 .footer_block p, .footer_block a {
-    font-size: var(--font-sm);
+    font-size: 1.1rem;
 }
 ul {
     list-style-type: none;
