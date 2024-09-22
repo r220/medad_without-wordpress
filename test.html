@@ -61,11 +61,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           class="btn text-white me-2"
           style="font-size: xx-large"
           data-bs-toggle="modal"
-          data-bs-target="#search_model"
+          data-bs-target="#account_modal"
           href=""
           target="#"
           rel="noreferrer"
-          aria-label="البحث"
+          aria-label="الحساب"
         >
           <i class="bi bi-person-fill"></i>
         </a>
@@ -73,7 +73,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           class="btn text-white ms-2"
           style="font-size: x-large"
           data-bs-toggle="modal"
-          data-bs-target="#account_model"
+          data-bs-target="#search_modal"
           href=""
           target="#"
           rel="noreferrer"
@@ -116,8 +116,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
     <!-- search modal -->
     <div
-      class="modal search_modal fade text-center"
-      id="search_model"
+      class="modal account_modal fade"
+      id="account_modal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -129,13 +129,72 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-12">
-                  <h1>مرحبا بك في مداد</h1>
+                  <div class="btn-group sign-log mb-5" role="group" aria-label="Basic example">
+                        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-secondary" for="vbtn-radio1">تسجيل الدخول</label>
+                        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+                        <label class="btn btn-outline-secondary" for="vbtn-radio2">إنشاء حساب</label>
+                      </div>
                 </div>
-              </div>
-              <hr width="100%" size="2" />
-              <div class="row">
-                <div class="col-sm-6"></div>
-                <div style="border-left: 1px solid #212529; height: 100px; opacity: .25;"></div>
+                <div class="account-col col-sm-12">
+                  <div class="row">
+                    <!-- <div class="col-sm-12">
+                      <h2 class="text-center">تسجيل دخول</h2>
+                      <hr />
+                    </div> -->
+                    <div class="col-sm-12">
+                      <form class="log-in-form" action="log-in.php">
+                        <label for="email" class="form-label text-start"
+                          >البريد الإلكتروني</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control mb-3"
+                          id="email"
+                          placeholder="name@example.com"
+                        />
+                        <label
+                          for="inputPassword5"
+                          class="form-label text-start"
+                          >كلمة المرور</label
+                        >
+                        <input
+                          type="password"
+                          id="inputPassword5"
+                          class="form-control mb-5"
+                          aria-describedby="passwordHelpBlock"
+                        />
+                        <button
+                          type="submit"
+                          class="btn btn-primary text-white opacity-90 mb-3 w-100"
+                        >
+                          تسجيل الدخول
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <hr class="hl" />
+                <div class="account-col col-sm-12">
+                  <div class="row" style="height: 100%">
+                    <div class="col-sm-12">
+                      <h2 class="text-center">حساب جديد</h2>
+                      <hr />
+                    </div>
+                    <div class="col-sm-12">
+                      <div
+                        class="sign-in-d-flex d-flex flex-row flex-wrap align-items-center justify-content-evenly"
+                      >
+                        <button class="sign-col">
+                          <i class="bi bi-person-fill"></i>مؤجر
+                        </button>
+                        <button class="sign-col">
+                          <i class="bi bi-person-fill"></i>مستأجر
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -145,8 +204,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
     <!-- account modal -->
     <div
-      class="modal account_model fade"
-      id="account_model"
+      class="modal search_modal fade"
+      id="search_modal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -174,7 +233,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
       </div>
     </div>
-    <!-- HERO -->
     <!-- offcanvas -->
     <div
       class="offcanvas offcanvas-end bg-secondary w-75"
@@ -245,6 +303,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </ul>
       </div>
     </div>
+    <!-- HERO -->
     <section id="hero">
       <div class="container py-5 px-2 text-center">
         <!-- IMAGE -->
